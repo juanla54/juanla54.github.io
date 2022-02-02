@@ -1,0 +1,6 @@
+.ejemplo1 {color:darkmagenta}
+#ejemplo2 {color: aqua}
+* {background-color: rgb(204, 233, 185)}
+ul,li,h1 {color: rgb(248, 139, 139)}
+ol li {color: rgb(80, 98, 255)}
+p:hover {color: rgb(251, 255, 24)}
