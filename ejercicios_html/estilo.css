@@ -1,8 +1,0 @@
-body {font-family: 'Times New Roman'}
-#encabezado {text-align: center; color: rgb(0,0,255); background-color: rgb(9, 195, 252)}
-#intro {color: brown; background-color: yellow}
-#test {font-family:'Courier New', Courier, monospace; background-color: rgb(9, 195, 252)}
-#instruc {color: red}
-.impar {background-color: rgb(158, 156, 156)}
-.par {background-color: rgb(87, 86, 86)}
-.correcta {color: red; background-color: rgb(248, 248, 124)}
