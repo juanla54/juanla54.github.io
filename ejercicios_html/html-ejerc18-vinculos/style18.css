@@ -8,5 +8,5 @@ display: table-cell;
 vertical-align: middle} 
 
 body {background-color: rgb(27, 27, 27)}
-h1 {font-weight: bold}
+h1 {font-weight: bold; color: white}
 h1:hover {background-color: orange; color: black}
