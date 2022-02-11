@@ -12,3 +12,8 @@ vertical-align: middle;
 
  } 
 body {background-color: rgb(27, 27, 27)}
+p {color: white; font-family: 'Times New Roman', Times, serif}
+h1 {
+  font-weight: bold}
+h1:hover {background-color: orange; color: black}
+* {margin: 5px; padding: 5px}
