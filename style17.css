@@ -1,13 +1,15 @@
-.me {background-color: rgb(188, 235, 170); font-family: Helvetica}
-.html {background-color: rgb(255, 204, 204); font-family: Monaco, monospace}
-.css {background-color: rgb(204, 255, 255); font-family: Verdana, sans-serif}
+#me {background-color: rgb(188, 235, 170); font-family: Helvetica}
+#indice {background-color: #99c2ff; font-family: Lucida Handwriting}
+#html {background-color: rgb(255, 204, 204); font-family: Monaco, monospace}
+#css {background-color: rgb(204, 255, 255); font-family: Verdana, sans-serif}
 .hosting {background-color: rgb(255, 204, 255); font-family: GCourier New, monospace}
 .link {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 50%
 }
+#etiquetas {background-color: rgb(255,140,100)}
 #presentacion {
   display:block;
   margin-left: auto;
@@ -15,3 +17,5 @@
   width: 50%;
 }
 strong {color: rgb(41, 240, 107)}
+.buton:hover {color: yellow}
+.buton {color: red}
