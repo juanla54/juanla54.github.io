@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ejercicio 07</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Ejercicio 07</h1>
+  <script>
+    var culpable = window.prompt("¿eres culpable?"); // si, no 
+
+    if (culpable == "si") {
+
+      document.write("irás a la cárcel");
+
+    } else if (culpable == "no") {
+
+      document.write("irás a casa");
+
+    } else {
+
+      document.write("la documentación por favor");
+
+    }
+    var edad = window.prompt("¿cuantos años tienes?");
+
+    if (edad>=18) {
+      document.write(", pero irás a comisaría primero");
+   
+    } else if (edad<18) {
+      document.write(", llama a tus padres");
+    } else {
+      document.write(", sígame");
+    }
+
+  
+  </script>
+</body>
+
+</html>
