@@ -13,7 +13,14 @@
   <script>
     var frase = prompt("Hola, buenas tardes")
     var frase_nueva = "";
-    
+    for (i in frase) {
+      if (frase[i] == "a") {
+        document.write("", frase_nueva[i] = "u",)
+      }
+      else {
+        document.write("",frase[i],"")
+      }
+    }
     var topping = window.prompt("qué topping quieres: oreo, kitkat, brownie, lacasitos u otro");
 
     var precio = 0.00;
@@ -52,14 +59,6 @@
     precioFinal = helado + precio;
 
     document.write("el helado cuesta " + precioFinal + " €");
-    for (i in frase) {
-      if (frase[i] == "a") {
-        document.write("<h1>", frase_nueva[i] = "u", "</h1>")
-      }
-      else {
-        document.write("<h1>",frase[i]," </h1>")
-      }
-    }
   </script>
 </body>
 
