@@ -1,0 +1,7 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h1 {background-color: rgb(173, 220, 255); font-family: Monaco, monospace}
+h2 {background-color: rgb(155, 253, 253); font-family: Verdana, sans-serif}
+body {background-color: rgb(168, 255, 210); font-family: Helvetica}

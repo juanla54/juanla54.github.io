@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Examen final TICII</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Examen final TIC II</h1>
+  <h2>Qué he aprendido en TIC II</h2>
+  <p>En la asignatura de TIC II he aprendido muchas cosas relacionadas con un tema que me interesa, el tema de Internet, las páginas web y su estructura interna es algo que a priori parece muy complejo, pero que resulta ser algo sencillo a niveles poco avanzados. En cuanto al tema de la programación, he aprendido a crear mi propia web en la que se utiliza lenguaje HTML con su respectiva parte de CSS y también el lenguaje de JavaScript. Actualmente estoy realizando el curso de Python de EDX que es algo largo por lo que no creo que pueda acabarlo antes de la evaluación pero pienso terminarlo por mi cuenta.</p>
+  <h2>Autoevaluación</h2>
+  <p>La nota que creo merecerme en este curso de TIC es un 9.5, ya que he realizado y entregado todas las tareas en tiempo. Además he hecho algunas de las tareas adicionales como la parte de Khan Academy o el curso que estoy realizando de Python.</p>
+  <h1>Parte con evaluación condicional para primera letra de nombre</h1>
+  <script>
+    var nombre = prompt("Inserte tu nombre");
+    alert("Hola " + nombre +", bienvenido al examen final.");
+    if (nombre[0] == "a" || nombre[0] == "e" || nombre[0] == "i" || nombre[0] == "o" || nombre[0] == "u"){ document.write("La primera letra de tu nombre es una " +nombre[0]+ " y es una vocal");}
+    else{document.write("La primera letra de tu nombre es una " + nombre[0] + " y es una consonante")};</script>
+  <h1>Parte con bucle for sobre la variable nombre y condicional</h1>
+  <script>
+  for(i in nombre) {
+    if (nombre[i] == "a" || nombre[i] == "e" || nombre[i] == "i" || nombre[i] == "o" || nombre[i] == "u"){ document.write("<p>La letra "+i+" de tu nombre es una " +nombre[i]+ " y es una vocal.</p>");}
+  else{
+    document.write("<p>La letra "+i+" de tu nombre es una " +nombre[i]+ " y es una consonante.</p>")
+  }
+  }
+       
+  </script>
+</body>
+
+</html>
