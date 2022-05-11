@@ -18,12 +18,12 @@
   <script>
     var nombre = prompt("Inserte tu nombre");
     alert("Hola " + nombre +", bienvenido al examen final.");
-    if (nombre[0] == "a" || nombre[0] == "e" || nombre[0] == "i" || nombre[0] == "o" || nombre[0] == "u"){ document.write("La primera letra de tu nombre es una " +nombre[0]+ " y es una vocal");}
+    if (nombre[0] == "a" || nombre[0] == "e" || nombre[0] == "i" || nombre[0] == "o" || nombre[0] == "u" || nombre[0] == "A" || nombre[0] == "E" || nombre[0] == "I" || nombre[0] == "O" || nombre[0] == "U"){ document.write("La primera letra de tu nombre es una " +nombre[0]+ " y es una vocal");}
     else{document.write("La primera letra de tu nombre es una " + nombre[0] + " y es una consonante")};</script>
   <h1>Parte con bucle for sobre la variable nombre y condicional</h1>
   <script>
   for(i in nombre) {
-    if (nombre[i] == "a" || nombre[i] == "e" || nombre[i] == "i" || nombre[i] == "o" || nombre[i] == "u"){ document.write("<p>La letra "+i+" de tu nombre es una " +nombre[i]+ " y es una vocal.</p>");}
+    if (nombre[i] == "a" || nombre[i] == "e" || nombre[i] == "i" || nombre[i] == "o" || nombre[i] == "u" || nombre[i] == "A" || nombre[i] == "E" || nombre[i] == "I" || nombre[i] == "O" || nombre[i] == "U"){ document.write("<p>La letra "+i+" de tu nombre es una " +nombre[i]+ " y es una vocal.</p>");}
   else{
     document.write("<p>La letra "+i+" de tu nombre es una " +nombre[i]+ " y es una consonante.</p>")
   }
